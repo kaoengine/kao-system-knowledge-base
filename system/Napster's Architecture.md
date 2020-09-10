@@ -1,0 +1,4 @@
+![[Pasted image.png]]
+On the Web as it is normally implemented, there are Web servers that hold information and process requests for that information (see How Web Servers Work for details). Web browsers allow individual users to connect to the servers and view the information. Big sites with lots of traffic may have to buy and support hundreds of machines to support all of the requests from users.
+
+Napster pioneered the concept of peer-to-peer file sharing. With the old version of Napster (Napster relaunched itself in 2003 as a legal, pay-for-music site), individual people stored files that they wanted to share (typically MP3 music files) on their hard disks and shared them directly with other people. Users ran a piece of Napster software that made this sharing possible. Each user machine became a mini server.

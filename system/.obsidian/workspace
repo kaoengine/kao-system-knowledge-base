@@ -1,0 +1,81 @@
+{
+  "main": {
+    "id": "6fa0a3c93722edf6",
+    "type": "split",
+    "children": [
+      {
+        "id": "c0add5c09ecce362",
+        "type": "leaf",
+        "active": true,
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "Napster's Architecture.md",
+            "mode": "preview"
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "61d7f7a4f0d76d1d",
+    "type": "split",
+    "children": [
+      {
+        "id": "42975aac473dbe48",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "bb31070296105120",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "a2d8f9c20207bc21",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": ""
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "551f5d777b9899d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "a71955b7952ad200",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6b5d373f4e9b3bc1",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Napster's Architecture.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "lastOpenFiles": [
+    "Untitled.md"
+  ]
+}
