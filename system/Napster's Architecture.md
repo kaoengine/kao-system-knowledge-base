@@ -13,10 +13,11 @@ If you logged into the old Napster to download a song, here's what happened:
 
 The creator of Napster had a couple of reasons for this approach:
 
-- Napster eventually grew to have billions of songs available. There is no way a central server could have had enough disk space to hold all the songs, or enough bandwidth to handle all the requests.
-- Napster was trying to take advantage of a loophole in copyright law that allows friends to share music with friends. The legal concept behind Napster was, "All of these people are sharing the songs on their hard disks with their friends." The courts did not agree with that logic, but it gave Napster enough time to prove the concept and grow to massive size.
+- Napster eventually grew to have billions of songs available. There is no way a central server could have had enough **disk space** to hold all the songs, or enough **bandwidth** to handle all the requests.
+- Napster was trying to take advantage of a** loophole in copyright law** that allows friends to share music with friends. The legal concept behind Napster was, "All of these people are sharing the songs on their hard disks with their friends." The courts did not agree with that logic, but it gave Napster enough time to prove the concept and grow to massive size.
 - This approach worked great and made fantastic use of the Internet's architecture. By spreading the load for file downloading across millions of machines, Napster accomplished what would have been impossible any other way.
 
 The **central database for song titles** was Napster's Achilles' heel. When the court ordered Napster to stop the music, the absence of a central database killed the entire original Napster network.
 
 With the original Napster gone, what you had at that point was something like 100 million people around the world hungry to share more and more files. It was only a matter of time before another system came along to fill the gap.
+
