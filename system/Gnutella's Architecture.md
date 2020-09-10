@@ -17,3 +17,18 @@ The original Napster had one piece of "client software" -- the software that use
 - Morpheus
 - WinMX
 - XoloX
+
+## How a Gnutella client finds a song
+Given that there is no central server to store the names and locations of all the available files, how does the Gnutella software on your machine find a song on someone else's machine? The process goes something like this:
+- you type in the name of the song or file you want to find.
+- your machine knows of at least one other Gnutella machine somewhere on the network. It knows this becasue you've told it the location of the machine by typing a IP address, or because the software has an IP address for a Gnutella host pre-programmed in. Your machine sends the song name you typed in to the Gnutella machine(s) it knows about.
+- These machines seach to see if the request file is on the local hard disk. If so, they send back the file name and IP to the request.
+- At the same time, all of these machines send out the same request tothe machine they are connected to, and the process repeats.
+- A request ha a TTL linit placed on it. A request might go out 6 or 7 levels deep before it stopes propagating. If each machine on Gnutella network knows of just 4 other, that mean that your request might reach 8.000 or other machines on Gnutelaa network if it progagrates 7 level deep.
+It is an extremely simple and clever way of distributing a query to thousands of machines very quickly.
+This approach has one big advantage -- **Gnutella works all the time.** As long as you can get to at least one other machine running Gnutella software, you are able to query the network. No court order is going to shut this system down, because there is no one machine that controls everything. However, Gnutella has at least three disadvantages:
+
+There is no guarantee that the file you want is on any of the 8,000 machines you can reach.
+Queries for files can take some time to get a complete response. It might be a minute or more before all of the responses, seven levels deep, come in.
+Your machine is part of this network. It is answering requests and passing them along, and in the process routing back responses as well. You give up some amount of your bandwidth to handle requests from all the other users.
+Apparently, these disadvantages are minor, because people have downloaded hundreds of millions of copies of Gnutella client
